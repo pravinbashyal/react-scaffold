@@ -27,14 +27,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Organisation:
 
-The application is divided into Pages. Pages are root level routes. In this case:
-1. Popular
-2. Favorites
+The application is divided into Pages. Pages are root level routes
 
 Each logical component might be separated into following:
 
 ### Domain:
-Domain consists of schemas and models that could be business domains(like in this case Repository) or application domain(like in this case SearchParams). Domain can consist of mappers. Mappers convert one domain object to another. Usually translations reside in this folder as well.
+Domain consists of schemas and models that could be business domains or application domain. Domain can consist of mappers. Mappers convert one domain object to another. Usually translations reside in this folder as well.
 
 ### Infra:
 This is where the infrastructure like api services reside
